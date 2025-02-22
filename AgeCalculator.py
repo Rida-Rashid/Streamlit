@@ -17,7 +17,3 @@ if st.button("Calculate Age"):
     
     # Display age result
     st.success(f"🎉 You are {age} years old!")
-import streamlit as st
-
-# Set page configuration
-st.set_page_config(page_title="Temperature Converter", page_icon="🌡️", layout="centered")
